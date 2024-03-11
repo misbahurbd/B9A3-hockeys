@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Hockeys - B9A3 - MisbahurBD</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="./assets/css/style.css" />
+  </head>
+  <body class="font-['Manrope']">
+    <!-- header -->
+    <header class="bg-white flex items-center h-20 relative">
+      <nav
+        class="navbar flex gap-3 px-4 md:mx-auto md:items-center md:justify-between md:max-w-2xl lg:max-w-5xl xl:max-w-6xl">
+        <input
+          class="peer sr-only"
+          type="checkbox"
+          id="menu" />
+        <label
+          for="menu"
+          class="w-8 h-8 p-1 flex flex-col md:hidden items-start justify-center gap-1.5 hover:bg-gray-200 rounded group">
+          <span class="block h-0.5 rounded bg-black w-full"></span>
+          <span class="block h-0.5 rounded bg-black w-1/2 group-hover:w-full"></span>
+          <span class="block h-0.5 rounded bg-black w-full"></span>
+        </label>
+        <h2 class="text-2xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</h2>
+
+        <ul
+          class="absolute transition top-full left-0 z-50 bg-neutral-50 md:bg-transparent flex flex-col gap-4 p-3 w-full origin-top scale-y-0 invisible opacity-0 peer-checked:visible peer-checked:scale-y-100 peer-checked:opacity-100 md:scale-y-100 md:visible md:opacity-100 md:relative md:flex-row md:w-auto">
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-1 transition text-neutral-800 hover:text-[#ff4240]">
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+              class="block px-4 py-1 transition text-neutral-800 hover:text-[#ff4240]">
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+              class="block px-4 py-1 transition text-neutral-800 hover:text-[#ff4240]">
+              Pages
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+              class="block px-4 py-1 transition text-neutral-800 hover:text-[#ff4240]">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+              class="block px-4 py-1 transition text-neutral-800 hover:text-[#ff4240]">
+              Contact
+            </a>
+          </li>
+        </ul>
+
+        <div class="ml-auto md:m-0 flex gap-6">
+          <button>
+            <img
+              class="w-6 h-6 hidden md:block"
+              src="/assets/img/search.svg"
+              alt="" />
+          </button>
+          <button class="bg-[#FF4240] text-white text-lg font-semibold px-4 py-2 rounded-lg">
+            Get Ticket
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- banner -->
+    <section class="py-4 md:w-full md:mx-auto md:max-w-2xl lg:max-w-5xl xl:max-w-6xl">
+      <div class="carousel w-full">
+        <!-- slide 01 -->
+        <div
+          id="slide1"
+          class="carousel-item w-full">
+          <div class="px-4 flex flex-col gap-4 relative w-full">
+            <img
+              src="/assets/img/banner-01.webp"
+              class="w-full rounded-xl aspect-[16/10] object-cover object-center md:aspect-[2/1] lg:aspect-[5/2]" />
+            <div class="bg-black rounded-xl p-5 md:absolute md:right-10 md:bottom-6 md:w-1/2">
+              <h2 class="text-lg font-extrabold text-white mb-2">
+                Dive into the thrilling world of hockey
+              </h2>
+              <p class="text-white/60 text-sm">
+                Experience the adrenaline rush on the icy rink. Feel the passion and dedication as
+                each player strives for victory.
+              </p>
+            </div>
+            <div
+              class="absolute flex gap-4 transform left-1/2 -translate-x-1/2 bottom-1/2 translate-y-1/2 md:absolute md:left-10 md:bottom-6 md:translate-x-0 md:translate-y-0">
+              <a
+                href="#slide4"
+                class="w-8 h-8 rounded-full bg-black text-white grid place-items-center"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="w-8 h-8 rounded-full bg-black text-white grid place-items-center"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- slide 02 -->
+        <div
+          id="slide2"
+          class="carousel-item w-full">
+          <div class="px-4 flex flex-col gap-4 relative w-full">
+            <img
+              src="/assets/img/banner-02.webp"
+              class="w-full rounded-xl aspect-[16/10] object-cover object-center md:aspect-[2/1] lg:aspect-[5/2]" />
+            <div class="bg-black rounded-xl p-5 md:absolute md:right-10 md:bottom-6 md:w-1/2">
+              <h2 class="text-lg font-extrabold text-white mb-2">
+                Celebrate the legends of the game
+              </h2>
+              <p class="text-white/60 text-sm">
+                Discover the stories behind the icons. Learn how they paved the way for the future
+                generations of hockey enthusiasts.
+              </p>
+            </div>
+            <div
+              class="absolute flex gap-4 transform left-1/2 -translate-x-1/2 bottom-1/2 translate-y-1/2 md:absolute md:left-10 md:bottom-6 md:translate-x-0 md:translate-y-0">
+              <a
+                href="#slide1"
+                class="w-8 h-8 rounded-full bg-black text-white grid place-items-center"
+                >❮</a
+              >
+              <a
+                href="#slide3"
+                class="w-8 h-8 rounded-full bg-black text-white grid place-items-center"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- slide 03 -->
+        <div
+          id="slide3"
+          class="carousel-item w-full">
+          <div class="px-4 flex flex-col gap-4 relative w-full">
+            <img
+              src="/assets/img/banner-03.jpeg"
+              class="w-full rounded-xl aspect-[16/10] object-cover object-center md:aspect-[2/1] lg:aspect-[5/2]" />
+            <div class="bg-black rounded-xl p-5 md:absolute md:right-10 md:bottom-6 md:w-1/2">
+              <h2 class="text-lg font-extrabold text-white mb-2">
+                Uncover the magic of hockey culture
+              </h2>
+              <p class="text-white/60 text-sm">
+                Immerse yourself in the traditions and rituals that make hockey more than just a
+                game – it's a way of life.
+              </p>
+            </div>
+            <div
+              class="absolute flex gap-4 transform left-1/2 -translate-x-1/2 bottom-1/2 translate-y-1/2 md:absolute md:left-10 md:bottom-6 md:translate-x-0 md:translate-y-0">
+              <a
+                href="#slide2"
+                class="w-8 h-8 rounded-full bg-black text-white grid place-items-center"
+                >❮</a
+              >
+              <a
+                href="#slide4"
+                class="w-8 h-8 rounded-full bg-black text-white grid place-items-center"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- slide 04 -->
+        <div
+          id="slide4"
+          class="carousel-item w-full">
+          <div class="px-4 flex flex-col gap-4 relative w-full">
+            <img
+              src="/assets/img/banner-04.jpeg"
+              class="w-full rounded-xl aspect-[16/10] object-cover object-center md:aspect-[2/1] lg:aspect-[5/2]" />
+            <div class="bg-black rounded-xl p-5 md:absolute md:right-10 md:bottom-6 md:w-1/2">
+              <h2 class="text-lg font-extrabold text-white mb-2">
+                Experience the thrill of the game firsthand
+              </h2>
+              <p class="text-white/60 text-sm">
+                Get ready to hit the ice and create your own unforgettable moments. The journey to
+                greatness starts here.
+              </p>
+            </div>
+            <div
+              class="absolute flex gap-4 transform left-1/2 -translate-x-1/2 bottom-1/2 translate-y-1/2 md:absolute md:left-10 md:bottom-6 md:translate-x-0 md:translate-y-0">
+              <a
+                href="#slide3"
+                class="w-8 h-8 rounded-full bg-black text-white grid place-items-center"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="w-8 h-8 rounded-full bg-black text-white grid place-items-center"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
